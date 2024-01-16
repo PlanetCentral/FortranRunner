@@ -1,0 +1,54 @@
+{
+  "name": "fortran-runner",
+  "displayName": "Fortran Runner",
+  "description": "Auto-inject launch and tasks configuration for Fortran projects!",
+  "version": "0.0.1",
+  "publisher": "Rahil Prakash",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:fortran-configurator.createConfigFiles",
+    "workspaceContains:**/*.f90"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fortran-configurator.createConfigFiles",
+        "title": "Create Fortran Configuration"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Fortran Configurator",
+      "properties": {
+        "fortranConfigurator.customBuildCommand": {
+          "type": "string",
+          "default": "gfortran -g ${file} -o ${fileDirname}\\${fileBasenameNoExtension}.exe",
+          "description": "Custom command for building Fortran applications."
+        },
+        "fortranConfigurator.customFortranPath": {
+          "type": "string",
+          "default": "",
+          "description": "Custom path for Fortran compiler. Leave this empty to use the default system PATH."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "tsc -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@types/vscode": "^1.50.0",
+    "typescript": "^4.0.3"
+  }
+}
