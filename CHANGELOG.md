@@ -1,9 +1,4 @@
 # Change Log
 
-All notable changes to the "fortran-runner-" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+01/15/2024: 
+Added capability for user to modify Fortran PATH in extension settings
