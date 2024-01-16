@@ -8,8 +8,4 @@ The goal of this extension is to provide the user with an easy method to inject 
 
 This extension does NOT provide debugging or language syntax capability. Please use another extension in tandom with this, such as "Modern Fortran".
 
-## Release Notes
-
-It's updated every few months!
-
 ## I hope you enjoy this extension! Please let me know of any suggestions or bugs.
