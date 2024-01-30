@@ -6,7 +6,7 @@ The goal of this extension is to provide the user with an easy method to inject 
 
 ## Operation
 
-Quite simply, open the command pallete (CTRL+Shift+P) and select (or enter) "Create Fortran Configuration". From there, head on to the Run & Debug menu and click the play button!
+Quite simply, open the command palette (CTRL+Shift+P) and select (or enter) "Create Fortran Configuration". From there, head on to the Run & Debug menu and click the play button!
 
 ## Requirements
 
