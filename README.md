@@ -16,6 +16,7 @@ Assumed installation of GCC MinGW Fortran and C++.
 ## Helpful Links
 
 MinGW Download: https://sourceforge.net/projects/mingw/
+
 Modern Fortran (VSCode Syntax, Language Support): https://marketplace.visualstudio.com/items?itemName=fortran-lang.linter-gfortran
 
 ## I hope you enjoy this extension! Please let me know of any suggestions or bugs.
