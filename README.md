@@ -10,6 +10,7 @@ Quite simply, open the command pallete (CTRL+Shift+P) and select (or enter) "Cre
 
 ## Requirements
 
-This extension does NOT provide debugging or language syntax capability. Please use another extension in tandom with this, such as "Modern Fortran".
+This extension does NOT provide debugging or language syntax capability. Please use another extension in tandem with this, such as "Modern Fortran".
+Assumed installation of GCC MinGW Fortran and C++.
 
 ## I hope you enjoy this extension! Please let me know of any suggestions or bugs.
