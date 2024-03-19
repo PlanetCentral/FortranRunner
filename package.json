@@ -1,25 +1,36 @@
 {
   "name": "fortran-runner",
   "displayName": "Fortran Runner",
-  "description": "Auto-inject launch and tasks configuration for Fortran projects!",
-  "version": "0.0.1",
-  "publisher": "Rahil Prakash",
+  "description": "Run MINGW Fortran easily within Visual Studio Code! Auto-injects launch and tasks configuration for Fortran projects.",
+  "version": "1.0.6", 
+  "publisher": "RahilPrakash",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
+  ],
+  "keywords": [
+    "fortran",
+    "Fortran - Modern",
+    "fortran-modern"
   ],
   "activationEvents": [
     "onCommand:fortran-configurator.createConfigFiles",
-    "workspaceContains:**/*.f90"
+    "workspaceContains:**/*.f90",
+    "onCommand:fortran-configurator.updateFortranPath"
   ],
   "main": "./out/extension.js",
+  "icon": "icon.png",
   "contributes": {
     "commands": [
       {
         "command": "fortran-configurator.createConfigFiles",
         "title": "Create Fortran Configuration"
+      },
+      {
+        "command": "fortran-configurator.updateFortranPath",
+        "title": "Update Fortran Compiler Path"
       }
     ],
     "configuration": {
