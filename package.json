@@ -2,7 +2,7 @@
   "name": "fortran-runner",
   "displayName": "Fortran Runner",
   "description": "Run MINGW Fortran easily within Visual Studio Code! Auto-injects launch and tasks configuration for Fortran projects.",
-  "version": "2.0.0", 
+  "version": "2.0.3", 
   "publisher": "RahilPrakash",
   "engines": {
     "vscode": "^1.50.0"
